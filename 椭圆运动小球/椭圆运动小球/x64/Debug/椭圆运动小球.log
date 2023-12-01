@@ -1,0 +1,8 @@
+﻿  椭圆运动小球.cpp
+D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\椭圆运动小球\椭圆运动小球.cpp(178,19): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\椭圆运动小球\椭圆运动小球.cpp(213,19): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\椭圆运动小球\椭圆运动小球.cpp(247,19): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\椭圆运动小球\椭圆运动小球.cpp(281,19): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\椭圆运动小球\椭圆运动小球.cpp(49): warning C4715: “panduan”: 不是所有的控件路径都返回值
+  LINK : 没有找到 D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\x64\Debug\椭圆运动小球.exe 或上一个增量链接没有生成它；正在执行完全链接
+  椭圆运动小球.vcxproj -> D:\编程\c c++\我的程序\Visual Studio\椭圆运动小球\x64\Debug\椭圆运动小球.exe
