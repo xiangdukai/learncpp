@@ -1,0 +1,4 @@
+﻿  string容器.cpp
+D:\编程\c c++\我的程序\Visual Studio\STL学习\stirng容器\stirng容器\string容器.cpp(65,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\编程\c c++\我的程序\Visual Studio\STL学习\stirng容器\stirng容器\string容器.cpp(75,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  stirng容器.vcxproj -> D:\编程\c c++\我的程序\Visual Studio\STL学习\stirng容器\x64\Debug\stirng容器.exe
