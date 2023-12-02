@@ -3,6 +3,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//xiangdukai版权所有
+//更多开源程序见 https://github.com/xiangdukai/learncpp
+
 double v;
 ExMessage m1, m2, m3,m;		// 定义消息变量
 double a, b, c;
@@ -20,6 +23,7 @@ static double f(double x, double y, ExMessage m1, ExMessage m2, double a)
 	return abs(z - 2 * a);
 }
 
+//将椭圆轨迹补充完整
 static void draw(int X,int Y,int R)
 {
 	R++;
@@ -57,6 +61,8 @@ int main()
 	cout << "请输入小球大小：";
 	cin >> r;
 	initgraph(1280, 960);	// 创建绘图窗口，大小为 1280*960 像素
+
+	//输入鼠标左键点击数据
 	do
 	{
 		m1 = getmessage(EX_MOUSE);
@@ -76,6 +82,7 @@ int main()
 	} while (m3.message != WM_LBUTTONDOWN);
 	//fillcircle(m3.x, m3.y, 2);
 
+	//计算x0,y0,a,b,c
 	int x0 = (m1.x + m2.x) / 2;
 	int y0 = (m1.y + m2.y) / 2;
 	c = (distance(m1, m2) / 2);
@@ -87,6 +94,7 @@ int main()
 	//const string str="a = "+ to_string(a);
 	//drawtext(_T(str), &r, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 
+	/*
 	//x1,y1 是上顶点；x2,y2 是下顶点
 	double x1 = b * (m2.y - m1.y) / 2 / c + x0;
 	double y1 = -b * (m2.x - m1.x) / 2 / c + y0;
@@ -97,6 +105,7 @@ int main()
 	double y3 = a * (m2.y - m1.y) / 2 / c + y0;
 	double x4 = -a * (m2.x - m1.x) / 2 / c + x0;
 	double y4 = -a * (m2.y - m1.y) / 2 / c + y0;
+	*/
 
 	//fillcircle(x1, y1, 2);
 	//fillcircle(x2, y2, 2);
@@ -140,9 +149,6 @@ int main()
 	//fillcircle(ymax_x, ymax, 2);
 	//fillcircle(ymin_x, ymin, 2);
 
-	//fillcircle(100, 100, 5);
-	//Sleep(1000 / v);
-	//clearcircle(100, 100, 5);
 
 	int Y = 960, X = 0;
 	bool flag = true;
@@ -292,7 +298,7 @@ int main()
 	//ellipse(int(x4), int(y1), int(x3), int(y2));
 
 
-	//_getch();				// 按任意键继续
-	//closegraph();			// 关闭绘图窗口
+	_getch();				// 按任意键继续
+	closegraph();			// 关闭绘图窗口
 	return 0;
 }
